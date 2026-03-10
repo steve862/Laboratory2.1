@@ -16,16 +16,17 @@ html{
     background-position: center;
     padding-top: 500px;
     padding-bottom: 20px;
-    padding-left: 50px;
     background-size: cover;
     font-size: 1.5rem;
     font-weight: 500;
     color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
-    margin: -0.5rem;
+    max-width: 100%;
+    margin: -0.5rem auto;
 }
 h1{ /*Main Heading*/
-    margin: -0.5rem;
+    max-width: 100%;
+    margin: -0.5rem auto;
     text-transform: uppercase;
     font-family: "Syne", sans-serif;
     font-optical-sizing: auto;
