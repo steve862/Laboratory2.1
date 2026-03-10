@@ -7,6 +7,8 @@ html{
     font-style: normal;
     font-variation-settings:"wdth" 100;
     background-attachment: fixed;
+    max-width: 100%;
+    margin-right: auto;
 
 }
 .banner{ /*Banner Image and Text Styling*/
@@ -23,8 +25,7 @@ html{
     margin: -0.5rem;
 }
 h1{ /*Main Heading*/
-    max-width: 100%;
-    margin: 0 auto;
+    margin: -0.5rem;
     text-transform: uppercase;
     font-family: "Syne", sans-serif;
     font-optical-sizing: auto;
