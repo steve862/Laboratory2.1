@@ -1,4 +1,5 @@
 html{
+    
     background-color: #EFE9E3;
     font-size: 20px;
     font-family: "Syne", sans-serif;
@@ -7,11 +8,10 @@ html{
     font-style: normal;
     font-variation-settings:"wdth" 100;
     background-attachment: fixed;
-    max-width: 100%;
-    margin-right: auto;
 
 }
 .banner{ /*Banner Image and Text Styling*/
+    background-attachment: fixed;
     background-image: url(../image/banner2.jpg);
     background-position: center;
     padding-top: 500px;
@@ -21,8 +21,21 @@ html{
     font-weight: 500;
     color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em;
-    max-width: 100%;
-    margin: -0.5rem auto;
+    margin: -0.5rem;
+}
+h1{ /*Main Heading*/
+    margin: -0.5rem;
+    text-transform: uppercase;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    background-color: #C9B59C;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 35px;
+    font-size: 2rem;
+    
 }
 h1{ /*Main Heading*/
     max-width: 100%;
@@ -124,3 +137,4 @@ td{
     border-radius: 20px;
     border: #C9B59C solid 2px;
 }
+
