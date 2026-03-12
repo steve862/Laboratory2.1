@@ -37,21 +37,6 @@ h1{ /*Main Heading*/
     font-size: 2rem;
     
 }
-h1{ /*Main Heading*/
-    max-width: 100%;
-    margin: -0.5rem auto;
-    text-transform: uppercase;
-    font-family: "Syne", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    background-color: #C9B59C;
-    color:rgb(255, 255, 255);
-    font-weight: 500;
-    padding: 35px;
-    font-size: 2rem;
-    
-}
 h2{
     padding-left: 2rem;
 }
@@ -137,4 +122,5 @@ td{
     border-radius: 20px;
     border: #C9B59C solid 2px;
 }
+
 
