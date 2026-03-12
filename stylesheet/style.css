@@ -1,5 +1,6 @@
 html{
-    
+    margin: 0;
+    overflow-x: hidden;
     background-color: #EFE9E3;
     font-size: 20px;
     font-family: "Syne", sans-serif;
@@ -14,7 +15,7 @@ html{
     background-attachment: fixed;
     background-image: url(../image/banner2.jpg);
     background-position: center;
-    padding-top: 500px;
+    padding-top: 40%;
     padding-bottom: 20px;
     background-size: cover;
     font-size: 1.5rem;
@@ -43,18 +44,18 @@ h2{
 p{
     padding-left: 2.5rem;
     text-align: justify;
-    padding-right: 3.5rem;
+    padding-right: 2.5rem;
 }
 ul{
     padding-left: 4rem;
-    padding-right: 3.5rem;
+    padding-right: 2.5rem;
 }
 ol{
     padding-left: 4rem;
-    padding-right: 3.5rem;
+    padding-right: 2.5rem;
 }
 img{ /*Sample Image*/
-    width: 400px;
+    width: 50%;
     height: auto;
     margin-left: 2rem;
     border-radius: 20px;
@@ -67,7 +68,6 @@ img{ /*Sample Image*/
 
 }
 caption{
-    border-collapse: collapse;
     background-color: #C9B59C;
     color: #ffffff;
     font-size: 1.5rem;
@@ -78,6 +78,7 @@ caption{
 } 
 table{ /*Sample Table*/
     border-collapse: collapse;
+    border-color: #C9B59C;
     width: 80%;
     margin-left: 2rem;
     background-color: #ffffff;
@@ -102,7 +103,7 @@ td{
     background-color: #ffffff;
     display: block;
     margin-bottom: -20px;
-    width: 50%;
+    width: 60%;
     padding-left: 0.7rem;
     border-radius: 20px;
     border: #C9B59C solid 2px;
@@ -122,5 +123,3 @@ td{
     border-radius: 20px;
     border: #C9B59C solid 2px;
 }
-
-
